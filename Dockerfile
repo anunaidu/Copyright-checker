@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.10-alpine
 
 LABEL "com.github.actions.name" = "Copyright Action"
 LABEL "com.github.actions.description" = "Automatically inserts copyright to the configured directories in a repository"
